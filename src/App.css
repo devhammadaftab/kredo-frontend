@@ -1,0 +1,150 @@
+.appBox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgcards {
+    width: 10vmax;
+    height: 10vmax;
+    border-radius: 10px;
+}
+
+.products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: yellow */
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100% !important;
+    position: relative;
+    margin: auto;
+    /* background-color: pink; */
+    padding: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    justify-content: center;
+    background: rgba(128, 128, 128, 0.107);
+    padding: 2vmax;
+    border-radius: 10px;
+}
+
+.details-image {
+    height: 90%;
+    border-radius: 10px;
+    margin: auto;
+    align-self: center
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    padding: 1vmax;
+}
+
+.details-image-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 1px rgba(128, 128, 128, 0.3);
+    margin: 1vmax;
+}
+
+.details-detail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-detail > label {
+    margin-top: 20px;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin-left: 300px;
+    width: 100%;
+}
+
+.buttonCat {
+    width: 95%;
+    text-align: center;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    text-decoration: none;
+    margin: 2px;
+    border-radius: 5px;
+    transition: all 0.1s ease-in-out;
+    color: white;
+    /* background-color: #25272c; */
+    /* background-color: white; */
+}
+
+.buttonCat:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 248);
+     transform: scale(0.9);
+    /* transition: all 0.1s ease-in-out; */
+    /* background-color: rgba(255, 166, 0, 0.8); */
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    background-color: #25272c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+/* .headingCategories{
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    text-transform: uppercase
+} */
+.links-container {
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}

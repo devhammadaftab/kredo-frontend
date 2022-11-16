@@ -1,0 +1,5 @@
+export enum ActionConstent {
+    SET_CATEGORIES = 'SET_CATEGORIES',
+    SET_PRODUCTS = 'SET_PRODUCTS',
+    SET_PRODUCT = 'SET_PRODUCT'
+}
